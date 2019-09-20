@@ -1,0 +1,19 @@
+p{
+    background-color: blanchedalmond
+}
+header{
+    margin-top: 16px;
+    margin-bottom: 16px 0;
+
+}
+h1  a {
+    font-size: 64px;
+    margin-bottom:16px;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none; 
+    display: inline;
+    margin: 8px;
+    }
