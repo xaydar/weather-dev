@@ -1,11 +1,4 @@
-console.log('i am working')
 
-
-
-
-
-    
-  
           let frm =   document.querySelector('form')
           frm.addEventListener('submit',(e)=>{
                 console.log('testing........', frm.search.value)
