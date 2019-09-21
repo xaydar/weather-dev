@@ -4,6 +4,7 @@ const hbs = require('hbs')
 const req = require('request')
 const weatherCode = require('./util/geoCode')
 const app = express()
+const port = process.env.PORT | 3000
 console.log(path.join(__dirname,'..'))
 app.set('view engine', 'hbs')
 app.use(express.static(path.join(__dirname,'../public')))
@@ -69,6 +70,6 @@ app.get('*',(req, res)=>{
 })
 
 
-app.listen(3000,()=>{
+app.listen(port,()=>{
     console.log('the app is listening port 3000')
 })

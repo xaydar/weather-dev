@@ -3,7 +3,7 @@
           frm.addEventListener('submit',(e)=>{
                 console.log('testing........', frm.search.value)
 
-                fetch( 'http://localhost:3000/weather?place='+frm.search.value).then((res)=>{
+                fetch( '/weather?place='+frm.search.value).then((res)=>{
     
                     res.json().then((data)=>{
                         
@@ -21,3 +21,4 @@
 
         e.preventDefault()
           })
+//https://bashiir-weather-app.herokuapp.com/ | https://git.heroku.com/bashiir-weather-app.git
